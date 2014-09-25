@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>iSseekme -  Home</title>
+
+    <!-- Bootstrap CSS -->
+    <!--
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="Content/bootstrap.css">
+	<link rel="stylesheet" href="Content/bootstrap-theme.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="Content/iSeekme.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        body {
+            background: url('images/salesPageBG002.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-color: #fff;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><i class="fa fa-angle-left"></i>&nbsp;&nbsp;begin</a></li>
+                    <li class="active"><a href="start.html"><i class="fa fa-play"></i>&nbsp;&nbsp;start</a></li>
+                    <li><a href="vision.html"><i class="fa fa-eye"></i>&nbsp;&nbsp;visie</a></li>
+                    <li><a href="contact.html"><i class="fa fa-comment"></i>&nbsp;&nbsp;contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="logo-mini pull-right ">
+        <a href="./">
+            <img src="images/iseekmeLogo_668x176_png.png" class="img-rounded img-responsive" alt="Logo" /></a>
+    </div>
+
+    <div class="loginBox pull-right">
+        <div class="form-box" id="login-box">
+            <div class="header">
+
+            </div>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <input type="text" name="userid" class="form-control" placeholder="email address" />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="password" />
+                </div>                
+                    <table>
+                        <tr>
+                            <td>
+                                <p class="pull-left"><a href="#">forgot password?</a></p>
+                            </td>
+                            <td style="width:30%">&nbsp;</td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-toggle="button">
+                                    <span>enter &nbsp;&nbsp;<i class="fa fa-angle-right"></i></span>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>                
+            </form>
+        </div>
+    </div>
+
+
+    <!--    <div id="contact" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">We'd Love to Hear From You</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal col-sm-12">
+                        <div class="form-group">
+                            <label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label><input class="form-control phone" placeholder="999-999-9999" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success pull-right">Send It!</button>
+                            <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not valid. </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <img src="images/SilkBricks_logo.png" class="img-rounded img-responsive footer-logo-img center-block" />
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="Scripts/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="Scripts/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</script>
+
+    <script type='text/javascript'>
+
+        $(document).ready(function () {
+
+            /* form validation plugin */
+            $.fn.goValidate = function () {
+                var $form = this,
+                    $inputs = $form.find('input:text');
+
+                var validators = {
+                    name: {
+                        regex: /^[A-Za-z]{3,}$/
+                    },
+                    pass: {
+                        regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/
+                    },
+                    email: {
+                        regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
+                    },
+                    phone: {
+                        regex: /^[2-9]\d{2}-\d{3}-\d{4}$/,
+                    }
+                };
+                var validate = function (klass, value) {
+                    var isValid = true,
+                        error = '';
+
+                    if (!value && /required/.test(klass)) {
+                        error = 'This field is required';
+                        isValid = false;
+                    } else {
+                        klass = klass.split(/\s/);
+                        $.each(klass, function (i, k) {
+                            if (validators[k]) {
+                                if (value && !validators[k].regex.test(value)) {
+                                    isValid = false;
+                                    error = validators[k].error;
+                                }
+                            }
+                        });
+                    }
+                    return {
+                        isValid: isValid,
+                        error: error
+                    }
+                };
+                var showError = function ($input) {
+                    var klass = $input.attr('class'),
+                        value = $input.val(),
+                        test = validate(klass, value);
+
+                    $input.removeClass('invalid');
+                    $('#form-error').addClass('hide');
+
+                    if (!test.isValid) {
+                        $input.addClass('invalid');
+
+                        if (typeof $input.data("shown") == "undefined" || $input.data("shown") == false) {
+                            $input.popover('show');
+                        }
+
+                    }
+                    else {
+                        $input.popover('hide');
+                    }
+                };
+
+                $inputs.keyup(function () {
+                    showError($(this));
+                });
+
+                $inputs.on('shown.bs.popover', function () {
+                    $(this).data("shown", true);
+                });
+
+                $inputs.on('hidden.bs.popover', function () {
+                    $(this).data("shown", false);
+                });
+
+                $form.submit(function (e) {
+
+                    $inputs.each(function () { /* test each input */
+                        if ($(this).is('.required') || $(this).hasClass('invalid')) {
+                            showError($(this));
+                        }
+                    });
+                    if ($form.find('input.invalid').length) { /* form is not valid */
+                        e.preventDefault();
+                        $('#form-error').toggleClass('hide');
+                    }
+                });
+                return this;
+            };
+            $('form').goValidate();
+
+        });
+
+    </script>
+</body>
+</html>
