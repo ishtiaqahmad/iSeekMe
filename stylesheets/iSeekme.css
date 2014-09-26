@@ -791,7 +791,7 @@ fieldset[disabled] .btn-primary.active {
     Page: register and login
 */
 .form-box {
-    width: 250px;
+    width: 280px;
     margin: 90px auto 0 auto;
 }
 
@@ -987,5 +987,36 @@ p {
     color: #BCB8B3;
     text-align: justify;
 }
+.joiningMsg {
+    color: #431620;
+    text-align: justify;
+    font-size: 90%;
+    line-height: 1;
+    padding: 5px;
+    margin-bottom: 0px;
+}
 
+.joiningMsg a {
+    font-weight: bold;
+}
+
+.join-login-tab {
+    padding: 5px;
+}
+.join-login-tab a {
+    font-weight: bold;
+}
+
+.join-login-tab h1, h2, h3, h4, h5 {
+    color: inherit;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+a:not(.btn) { color: #431620; }
+a:visited:not(.btn) { color: #431620; }
 
