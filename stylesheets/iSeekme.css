@@ -103,10 +103,14 @@ body {
 }
 
 @media (max-width: 480px) {
+    
+    .footer {
+        display: none;
+    }
+    
     .footer > .container-fluid,
     .footer > .container {
         padding: 8px;
-        display: none;
     }
 
     .footer-logo-img {
