@@ -106,6 +106,7 @@ body {
     .footer > .container-fluid,
     .footer > .container {
         padding: 8px;
+        display: none;
     }
 
     .footer-logo-img {
