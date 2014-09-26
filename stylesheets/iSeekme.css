@@ -1009,6 +1009,8 @@ p {
 
 .join-login-tab h1, h2, h3, h4, h5 {
     color: inherit;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .nav-pills > li.active > a,
