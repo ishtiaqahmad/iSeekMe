@@ -69,11 +69,11 @@ body {
 }
 
 .appBox {
-    position: fixed;
+    position: absolute;
     bottom: 80px;
     right: 15px;
     padding: 5px;
-    z-index: 5;
+    /*z-index: 5;*/
 }
 
 .appBox-col {
@@ -102,8 +102,15 @@ body {
     max-width: 340px;
 }
 
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .footer {
+        display: none;
+    }
+}
+
 @media (max-width: 480px) {
-    
+
     .footer {
         display: none;
     }
@@ -154,14 +161,14 @@ body {
     }
 
     .appBox {
-        bottom: 135px;
-        right: 20px;
+        bottom: 15vh;
+        right: 3vh;
     }
 
 }
 
 .phone-img {
-    max-width: 200px;
+    max-height: 45vh;
     float: right;
 }
 
@@ -178,7 +185,6 @@ body {
     }
 
     .phone-img {
-        max-width: 100px;
         float: right;
     }
 
@@ -187,8 +193,8 @@ body {
     }
 
     .appBox {
-        bottom: 180px;
-        right: 40px;
+        bottom: 20vh;
+        right: 5vh;
     }
 }
 
