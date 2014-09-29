@@ -1127,7 +1127,7 @@ p {
     font-weight: bold;
 }
 
-.join-login-tab h1, h2, h3, h4, h5 {
+.join-login-tab h1, .join-login-tab h2, .join-login-tab h3, .join-login-tab h4, .join-login-tab h5 {
     color: inherit;
 	margin-top: 0px;
 	margin-bottom: 0px;
