@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Iseekme -  Start</title>
+    <title>Iseekme - Start</title>
 
     <!-- Bootstrap CSS -->
 
@@ -12,20 +12,20 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/bootstrap.css">
-	<link rel="stylesheet" href="stylesheets/bootstrap-theme.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-theme.css">
     <!-- Site CSS -->
     <link rel="stylesheet" href="stylesheets/iSeekme.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <style type="text/css">
         body {
-            background:url(images/salesPageBG002.jpg) #ffffff no-repeat bottom center fixed;
+            background: url(images/salesPageBG002.jpg) #ffffff no-repeat bottom center fixed;
             font-family: 'Droid Sans', sans-serif;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -42,282 +42,707 @@
 </head>
 <body>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html"><i class="fa fa-angle-left"></i>&nbsp;&nbsp;begin</a></li>
-                    <li class="active"><a href="start.html"><i class="fa fa-play"></i>&nbsp;&nbsp;start</a></li>
-                    <li><a href="vision.html"><i class="fa fa-eye"></i>&nbsp;&nbsp;vision</a></li>
-                    <li><a href="contact.html"><i class="fa fa-comment"></i>&nbsp;&nbsp;contact</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-    </div>
-
-    <div class="logo-mini pull-right ">
-        <a href="./">
-            <img src="images/iseekmeLogo_668x176_png.png" class="img-rounded img-responsive" alt="Logo" /></a>
-    </div>
-
-    <div class="loginBox pull-right">
-        <div class="form-box" id="login-box">
-            <div class="well join-login-tab">
-                <ul class="nav nav-pills" role="tablist">
-                    <li class="active"><a href="#joinPill" role="tab" data-toggle="pill"><h1>join</h1></a></li>
-                    <li ><a href="#" role="none" data-toggle="pill"><h1>/</h1></a></li>
-                    <li><a href="#loginPill" data-toggle="pill"><h1> login</h1></a></li>
-                </ul>
-            </div>
-            <div class="tab-content">
-                <div id="joinPill" class="tab-pane active">
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <input type="text" name="userid" class="form-control" placeholder="email address" />
-                        </div>
-                        <div class="form-group">
-                            <input type="password" name="password" class="form-control" placeholder="password" />
-                        </div>
-                        <div class="form-group">
-                            <input type="password" name="password" class="form-control" placeholder="confirm password" />
-                        </div>
-                        <table>
-                            <tr>
-                                <td>
-                                    <p class="pull-left well joiningMsg">Joining means agreeing with our <a href="#terms-modal" data-toggle="modal">terms of service</a>.</p>
-                                </td>
-                                <td style="width:2%">&nbsp;</td>
-                                <td style="vertical-align: bottom;">
-                                    <button type="button" class="btn btn-primary" data-toggle="button">
-                                        <span>start &nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</span>
-                                    </button>
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
-                </div>
-                <div id="loginPill" class="tab-pane">
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <input type="text" name="userid" class="form-control" placeholder="email address" />
-                        </div>
-                        <div class="form-group">
-                            <input type="password" name="password" class="form-control" placeholder="password" />
-                        </div>
-                        <table>
-                            <tr>
-                                <td>
-                                    <p class="pull-left well joiningMsg"><a href="#">forgot password?</a></p>
-                                </td>
-                                <td style="width:30%">&nbsp;</td>
-                                <td>
-                                    <button type="button" class="btn btn-primary" data-toggle="button">
-                                        <span>enter &nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</span>
-                                    </button>
-                                </td>
-                            </tr>
-                        </table>
-                    </form>
-                </div>
-            </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><i class="fa fa-angle-left"></i>&nbsp;&nbsp;begin</a></li>
+                <li class="active"><a href="start.html"><i class="fa fa-play"></i>&nbsp;&nbsp;start</a></li>
+                <li><a href="vision.html"><i class="fa fa-eye"></i>&nbsp;&nbsp;vision</a></li>
+                <li><a href="contact.html"><i class="fa fa-comment"></i>&nbsp;&nbsp;contact</a></li>
+            </ul>
         </div>
+        <!--/.nav-collapse -->
     </div>
+</div>
 
-    <div id="terms-modal" class="modal fade text-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="color-bg">
-                    <div class="container">
-                        <div class="row ">
-                            <div class="col-xs-12 col-sm-12 col-md-12 color-bg light-typo" id="9modal-bar">
-                                <h2 class="pull-left">TERMS OF SERVICE</h2>
-                                <a class="close pull-right" href="#" data-dismiss="modal"><i class="fa fa-close"></i></a>
-                            </div>
-                        </div>
+<div class="logo-mini pull-right ">
+    <a href="./">
+        <img src="images/iseekmeLogo_668x176_png.png" class="img-rounded img-responsive" alt="Logo"/></a>
+</div>
+
+<div class="loginBox pull-right">
+    <div class="form-box" id="login-box">
+        <div class="well join-login-tab">
+            <ul class="nav nav-pills" role="tablist">
+                <li class="active"><a href="#joinPill" role="tab" data-toggle="pill"><h1>join</h1></a></li>
+                <li><a href="#" role="none" data-toggle="pill"><h1>/</h1></a></li>
+                <li><a href="#loginPill" data-toggle="pill"><h1> login</h1></a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div id="joinPill" class="tab-pane active">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" name="userid" class="form-control" placeholder="email address"/>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                            <h3>INLEIDING.</h3>
-                            <h5>A. Doel.</h5>
-                            <p>De missie van SilkBricks is om mensen hun talenten te laten ontdekken en te ontwikkelen, zodat zij productiever en succesvoller kunnen leven, studeren en werken. Om dit doel te bereiken, bieden we diensten aan via onze websites en apps om u te helpen.</p>
-                            <h5>B. Omvang en bedoeling.</h5>
-                            <p>U verklaart zich akkoord dat u door de registratie op SilkBricks of Iseekme, of door het gebruik van onze website of andere informatie die worden geleverd als onderdeel van de SilkBricks-services (collectief 'SilkBricks' of de 'Services') een bindende overeenkomst aangaat met Selira B.V. handelend onder de naam SilkBricks, Surfplein 4, 2492 VE Den Haag, Nederland op basis van de termen in deze SilkBricks Gebruikersovereenkomst en het Privacybeleid van SilkBricks, dat hierbij als verwijzing wordt geïntegreerd (collectief de 'Overeenkomst') en SilkBricks-gebruiker ('Gebruiker') wordt.</p>
-                            <p>Als u SilkBricks of Iseekme gebruikt in naam van een bedrijf of een wettelijke instantie bent u alsnog individueel gebonden door deze Overeenkomst, zelfs als uw bedrijf een afzonderlijke overeenkomst heeft met ons. Als u zich niet wenst te registreren en geen SilkBricks-gebruiker wilt worden, moet u de Overeenkomst niet afsluiten, NIET klikken op 'Aanmelden' en geen enkele SilkBricks-webpagina, informatie of services openen, weergeven, downloaden of anderszins gebruiken. Door te klikken op 'Aanmelden' erkent u dat u de algemene voorwaarden van deze Overeenkomst hebt gelezen en begrepen en dat u akkoord gaat gebonden te zijn door alle bepalingen. Door te klikken op 'Aanmelden' geeft u ook de toestemming elektronische handtekeningen te gebruiken en erkent u uw klik op de knop 'Aanmelden' als elektronische handtekening. Merk op dat de SilkBricks Gebruikersovereenkomst en het Privacybeleid ook collectief de ‘SilkBricks Gebruikersvoorwaarden’ worden genoemd.</p>
-                            <h3>Payment</h3>
-                            <p>We accept the following credit- and debit cards: Visa, Mastercard, Maestro, Visa Electron, JCB, UnionPay and American Express.The amount for your order will not be charged until your order is shipped from microStore.
-                                We also accept microStore online gift cards.</p>
-                            <h3>Order confirmation</h3>
-                            <p>You will receive an order confirmation by e-mail shortly after placing your order. On rare occasions an item can be out of stock. Then you will be informed by e-mail.</p>
-                            <h3>Shipping</h3>
-                            <p>We know that you can’t wait to get your order so we do our best to ship your order on the following working day. To follow the goods way to your closet you can track your order with the tracking number included in your shipping confirmation, which you get by e-mail as soon as we dispatch your order.
-                                Your order will be dispatched within 1-3 workdays from the time you place your order. When your order is dispatched, you will receive a shipping confirmation by e-mail. Orders to Denmark above 200€ and all international orders will include a tracking number to your shipping confirmation. All orders within EU are shipped via GLS and outside Europe orders are shipped via TNT, UPS and FedEx.
-                                The following shipping charges will be added to your order:<br>
-                                Denmark: 4 EUR <br>
-                                Europe: 8 EUR <br>
-                                Rest of the world: 16 EUR <br>
-                                Danish orders will be delivered within 1-3 days from the day you received your shipping confirmation.
-                                International orders will be delivered within 1-10 days from the day you received your shipping confirmation.
-                                Orders are not shipped or delivered on weekends and holidays. If a delivery suffers a delay or an item happens to be out of stock, you will be informed by e-mail as quick as possible and latest 30 days after the order was placed. Some delays may occur during sales, very busy periods, public holidays and severe weather conditions.
-                                Please notice that we are unable to deliver to P.O. box adresses.</p>
-                            <h3>Returns</h3>
-                            <p>If you change your mind about an item you must notify us within 14 days after having received your purchase and ship it to microStore within the following 14 days from having notified us. To return an order please contact shop@microStore.com and await our return confirmation. When received, you can return your order by the following procedure:
-                                Make sure that the product is still in perfect condition with undamaged packaging and tags still attached. We reserve the right to refuse any returns that do not match with these critetia:</p>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                            <p><br><br>Place the product in a shipping box or plastic bag. Hats and caps must be returned in a box so they do not get squashed out of shape.
-                                Enclose the original sales receipt to the product.
-                                Write RETURN on the package to ensure a faster expedition.
-                                Send the package to: microStore, 84 State Road 123, City, State 24813
-                                The return and financial responsibility is yours until it reaches microStore and are confirmed by a delivery confirmation. Please notice that we can exchange your items to another size or color if available in stock.</p>
-                            <h3>Warranty claims</h3>
-                            <p>There is a 2 years warranty on all products sold on www.microStore.com. This warranty covers manufacturing faults only, not wear and tear from regular use. Please contact us at shop@microStore.com if you have a warranty claim, including order number, photos of the claim area and a description of the claim.</p>
-                            <h3>Disclaimer</h3>
-                            <p>microStore does not guarantee that all items shown are in stock at the time of your order. In the event that an item is unavailable for whatever reason, microStore will contact you by e-mail. Although we do our best to display correct images, correct colours, info and prices, errors may occur.</p>
-                            <h3>Privacy policy</h3>
-                            <p>All your personal information is handled under strict confidence. microStore.com will never give any of your personal information to 3rd parties.All information is encrypted for safety.</p>
-                            <h3>Security</h3>
-                            <p>For the safety of your personal information, we use SLL encryption on all data to and from the site. When placing an order, you can immediately check the security validity by clicking the padlock icon that appears in the URL line of your browser when SSL is activated.</p>
-                            <h3>Cookies</h3>
-                            <p>Cookies are used by microStore.com in order to improve your experience when browsing and using the website. The cookie identifies your computer and allows the site to remember your personal settings. microStore.com may not operate properly when cookies are disabled in your web browser.</p>
-                            <h3>Measurements</h3>
-                            <p>All measurements are approximate and variance may occur. We have done our best but please have average sizing in mind and note that +/- 1cm on each measurement may occur.</p>
-                            <h3>Age restrictions</h3>
-                            <p>Parental or guardian consent is required for customers under the age of 18.</p>
-                            <h3>Governing law</h3>
-                            <p>The terms of use are complied in accordance with Danish law and the Danish courts will have exclusive jurisdiction.
-                            </p>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                            <a class="btn btn-store" href="#" data-dismiss="modal">Back to page</a><br><br>
-                        </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="password"/>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="confirm password"/>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <p class="pull-left well joiningMsg">Joining means agreeing with our <a
+                                        href="#terms-modal" data-toggle="modal">terms of service</a>.</p>
+                            </td>
+                            <td style="width:2%">&nbsp;</td>
+                            <td style="vertical-align: bottom;">
+                                <button type="button" class="btn btn-primary" data-toggle="button">
+                                    <span>start &nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</span>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="loginPill" class="tab-pane">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" name="userid" class="form-control" placeholder="email address"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" placeholder="password"/>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <p class="pull-left well joiningMsg"><a href="#">forgot password?</a></p>
+                            </td>
+                            <td style="width:30%">&nbsp;</td>
+                            <td>
+                                <button type="button" class="btn btn-primary" data-toggle="button">
+                                    <span>enter &nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</span>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
             </div>
         </div>
     </div>
-    <!-- FOOTER -->
-    <div class="footer">
-        <div class="container">
-            <img src="images/SilkBricks_logo.png" class="img-rounded img-responsive footer-logo-img center-block" />
+</div>
+
+<div id="terms-modal" class="modal fade text-modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="color-bg">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-12 col-sm-12 col-md-12 color-bg light-typo" id="9modal-bar">
+                <h2 class="pull-left">TERMS OF SERVICE</h2>
+                <a class="close pull-right" href="#" data-dismiss="modal"><i class="fa fa-close"></i></a>
+            </div>
         </div>
     </div>
+</div>
+<div class="container">
+<div class="row ">
+<div class="col-xs-12 col-sm-6 col-md-6">
+<h3>1. INLEIDING.</h3>
+<h5>A. Doel.</h5>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-	<!--<script src="javascripts/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>-->
-    <!-- Bootstrap JS -->
-    <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
-    <script src="javascripts/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+<p>De missie van SilkBrick is om mensen hun talenten te laten ontdekken en te ontwikkelen, zodat
+    zij productiever en succesvoller kunnen leven, studeren en werken. Om dit doel te bereiken,
+    bieden we diensten aan via onze websites en apps om u te helpen.</p>
+<h5>B. Omvang en bedoeling.</h5>
 
-    <script type='text/javascript'>
+<p>U verklaart zich akkoord dat u door de registratie op Iseekme, of door het gebruik van onze
+    website of andere informatie die worden geleverd als onderdeel van de SilkBrick-services
+    (collectief 'Iseekme' of de 'Services') een bindende overeenkomst aangaat met Selira B.V.
+    handelend onder de naam SilkBrick, Surfplein 4, 2492 VE Den Haag, Nederland op basis van de
+    termen in deze Iseekme Gebruikersovereenkomst en het Privacybeleid van SilkBrick, dat
+    hierbij als verwijzing wordt geïntegreerd (collectief de 'Overeenkomst') en
+    Iseekme-gebruiker ('Gebruiker') wordt.</p>
 
-        $(document).ready(function () {
+<p>Als u Iseekme gebruikt in naam van een bedrijf of een wettelijke instantie bent u alsnog
+    individueel gebonden door deze Overeenkomst, zelfs als uw bedrijf een afzonderlijke
+    overeenkomst heeft met ons. Als u zich niet wenst te registreren en geen Iseekme-gebruiker
+    wilt worden, moet u de Overeenkomst niet afsluiten, NIET klikken op 'Aanmelden' en geen
+    enkele Iseekme-webpagina, informatie of services openen, weergeven, downloaden of anderszins
+    gebruiken. Door te klikken op 'Aanmelden' erkent u dat u de algemene voorwaarden van deze
+    Overeenkomst hebt gelezen en begrepen en dat u akkoord gaat gebonden te zijn door alle
+    bepalingen. Door te klikken op 'Aanmelden' geeft u ook de toestemming elektronische
+    handtekeningen te gebruiken en erkent u uw klik op de knop 'Aanmelden' als elektronische
+    handtekening. Merk op dat de Iseekme Gebruikersovereenkomst en het Privacybeleid ook
+    collectief de ‘Iseekme Gebruikersvoorwaarden’ worden genoemd.</p>
 
-            /* form validation plugin */
-            $.fn.goValidate = function () {
-                var $form = this,
+<h3>2. UW VERPLICHTINGEN.</h3>
+<h5>A. Toepasbare wetgeving en deze Overeenkomst.</h5>
+
+<p>U moet zich schikken naar alle toepasbare wetten, de Overeenkomst, die af en toe kan worden
+    gewijzigd met of zonder voorafgaande kennisgeving, en de beleidslijnen en procedures die in
+    de volgende secties worden beschreven:</p>
+<dl>
+    <dd>1. 10. REGELS VOOR DE ISEEKME-GEBRUIKER.</dd>
+    <dd>2. 11. KLACHTEN MET BETREKKING TOT CONTENT GEPUBLICEERD OP DE ISEEKME-WEBSITE; en</dd>
+    <dd>3. Het Iseekme Privacybeleid.</dd>
+</dl>
+<h5>B. Licentie en garantie voor de content die u indient op Iseekme.</h5>
+
+<p>U bent eigenaar van de informatie die u indient op Iseekme in het kader van deze
+    Overeenkomst, en wij kunnen op ieder moment de verwijdering vragen, tenzij u informatie of
+    content hebt gedeeld met anderen en zij hebben deze niet verwijderd, of de informatie is
+    gekopieerd of opgeslagen door andere gebruikers. U verleent SilkBricks bovendien een
+    niet-exclusief, onherroepelijk, wereldwijd, eeuwigdurend, onbeperkt, toewijsbaar,
+    sublicentieerbaar, volledig betaald en royaltyvrij recht waarmee wij iedere informatie die u
+    ons geeft, direct of indirect aan Iseekme, kunnen kopiëren, afgeleide werken prepareren,
+    verbeteren, verspreiden, verwijderen, bewaren, toevoegen, verwerken, analyseren, gebruiken
+    en commercialiseren, op iedere momenteel bekende of in de toekomst ontdekte wijze,
+    inclusief, maar niet beperkt tot, alle door de gebruiker gegenereerde content, ideeën,
+    concepten, technieken of gegevens aan de services die u indient op Iseekme, zonder
+    aanvullende toestemming, kennisgeving en/of compensatie aan u of een derde. Alle informatie
+    die u indient gebeurt op eigen risico van verlies zoals vermeld in Sectie 2 en 3 van deze
+    Overeenkomst.</p>
+
+<p>Door ons informatie te bieden, vertegenwoordigt en garandeert u dat u het recht hebt de
+    informatie in te dienen en dat de informatie nauwkeurig is, niet vertrouwelijk, en niet in
+    overtreding van eventuele contractuele beperkingen of andere rechten van derden. U bent
+    verantwoordelijk voor het nauwkeurig bijwerken van uw Iseekme-profielinformatie.</p>
+<h5>C. Service Geschiktheid.</h5>
+
+<p>Om in aanmerking te komen voor het gebruik van de Service, moet u voldoen aan de volgende
+    criteria en vertegenwoordigen en garanderen dat: (1) u 15 jaar of ouder bent; (2) er geen
+    beperkingen bestaan met betrekking tot de Services, of dat het niet anderzijds verboden is
+    voor u een Iseekme-account te openen, (3) u geen concurrent bent van Iseekme of dat u de
+    Services niet gebruikt voor doeleinden die in concurrentie staan met Iseekme; (4) u slechts
+    een Iseekme-account zult openen op ieder moment; (5) u volledige controle en autoriteit hebt
+    een Overeenkomst aan te gaan en hierbij geen andere overeenkomst overtreedt waar u partij
+    van bent; (6) u geen rechten van Iseekme overtreedt, inclusief intellectuele
+    eigendomsrechten zoals copyright of handelsmerken; en (7) u akkoord gaat voor eigen rekening
+    alle apparatuur, software en internettoegang te leveren om de Services te gebruiken.</p>
+<h5>D. Aanmeldingsgegevens.</h5>
+
+<p>U verklaart zich akkoord: (1) uw wachtwoord veilig en vertrouwelijk te houden; (2) geen
+    andere personen uw account te laten gebruiken; (3) geen accounts van andere Gebruikers te
+    gebruiken; (4) uw Iseekme-account niet te verkopen, verhandelen of op andere wijze over te
+    dragen aan een andere partij; en (5) niemand kosten aan te rekenen voor toegang tot wat voor
+    een onderdeel van Iseekme dan ook, of wat voor een informatie op de Iseekme-website dan ook.
+    Verder bent u ook verantwoordelijk voor alles wat er gebeurt via uw account totdat u uw
+    account sluit of bewijst dat de beveiliging van uw account buiten uw verantwoordelijkheid om
+    in gevaar is gebracht.</p>
+<h5>E. Schadeloosstelling.</h5>
+
+<p>U vrijwaart ons en houdt ons schadeloos van alle schade, verlies en kosten (inclusief, maar
+    niet beperkt tot, redelijke honoraria van advocaten en kosten) met betrekking tot de claims,
+    kosten en onderzoeken van derden, veroorzaakt door (1) uw nalatigheid deze Overeenkomst na
+    te leven, inclusief, zonder beperking, content die u indient die de rechten van derden of de
+    toepasbare wetgeving overtreedt, (2) alle content die u indient op de Services, en (3)
+    iedere activiteit die u uitvoert op of via Iseekme.</p>
+<h5>F. U moet ons inlichten over handelingen die tegenstrijdig zijn met de Overeenkomst.</h5>
+
+<p>Als u van mening bent dat u het recht hebt op of verplicht bent in tegenstrijd met deze
+    Overeenkomst te handelen in het kader van de wetgeving, verklaart u zich akkoord ons een
+    schriftelijke, gedetailleerde en van gronden voorziene verklaring van uw redenen te leveren
+    tenminste 30 dagen voordat u tegenstrijdig met deze Overeenkomst handelt, om ons de
+    mogelijkheid te geven of we, naar eigen goeddunken, een alternatieve oplossing kunnen bieden
+    voor de situatie, hoewel we niet verplicht zijn dit te doen.</p>
+<h5>G. Kennisgevingen en serviceberichten.</h5>
+
+<p>In het kader van de serviceberichten en kennisgevingen over de Services aan u kan een
+    bannerbericht op de pagina's van Iseekme worden geplaatst om u op de hoogte te brengen van
+    bepaalde veranderingen, zoals wijzigingen in deze Overeenkomst. Anderzijds kan een
+    kennisgeving bestaan uit een e-mail van SilkBricks naar een e-mailadres dat is gekoppeld aan
+    uw account, zelfs als wij andere contactinformatie hebben. U verklaart zich ook akkoord dat
+    SilkBricks met u kan communiceren via uw Iseekme-account of via andere middelen zoals
+    e-mail, mobiel nummer, telefoon of leveringsservices inclusief de post, over uw
+    Iseekme-account of services die aan SilkBricks zijn gekoppeld. Controleer uw notificaties om
+    te bepalen welk type berichten u ontvangt van SilkBricks. U erkent en verklaart zich akkoord
+    dat wij niet aansprakelijk zijn in associatie met of als resultaat van uw nalatigheid
+    nauwkeurige contactinformatie of andere informatie te onderhouden, inclusief, maar niet
+    beperkt tot, uw nalatigheid essentiële informatie te ontvangen over de Service.</p>
+<h5>H. Gebruiker-naar-gebruiker-communicatie en delen (Feedforward,berichten,coach etc.).</h5>
+
+<p>SilkBricks biedt uiteenlopende forums, zoals Iseekme-groepen, Antwoorden en Netwerkupdates,
+    waar u uw opmerkingen en commentaren over toegewezen onderwerpen kunt publiceren. Iseekme
+    biedt ook de mogelijkheid informatie te delen door gebruikers' updates, inclusief
+    koppelingen naar nieuwsberichten en andere informatie zoals vacatures, productaanbevelingen
+    en andere content, te laten publiceren naar hun profiel en andere onderdelen van de site,
+    zoals Iseekme-groepen en Iseekme-bedrijfspagina's.</p>
+
+<p>Houd er rekening mee dat ideeën die u publiceert en informatie die u deelt, zichtbaar zijn
+    voor andere Gebruikers en door hen kunnen worden gebruikt. SilkBricks kan niet garanderen
+    dat andere Gebruikers de ideeën en informatie die u op Iseekme deelt niet zullen gebruiken.
+    Om die reden, als u ideeën of informatie hebt die u vertrouwelijk wilt houden en/of niet
+    wilt dat anderen deze gebruiken, of die onderhevig zijn aan rechten van derden die kunnen
+    worden overtreden als u deze deelt, moet u deze niet publiceren op een Iseekme-groep, in uw
+    netwerkupdates of elders op Iseekme. SILKBRICKS IS NIET VERANTWOORDELIJK VOOR HET MISBRUIK
+    OF DE VERDUISTERING VAN CONTENT OF INFORMATIE DIE U PUBLICEERT.</p>
+<h5>I. Privacy.</h5>
+
+<p>U moet ons Privacybeleid zorgvuldig lezen voordat u Gebruiker wordt, aangezien dit hierbij
+    als verwijzing wordt geďntegreerd in deze Overeenkomst, en dit betrekking heeft op alle
+    informatie, inclusief persoonlijk identificeerbare informatie die u bij ons indient. Merk op
+    dat bepaalde informatie, verklaringen, gegevens en content (zoals foto's) die u eventueel
+    indient op Iseekme, of groepen waarvan u lid wordt, uw geslacht, nationaliteit, leeftijd
+    en/of andere persoonlijke informatie over u mogelijk, of waarschijnlijk, openbaar maken. U
+    erkent dat het indienen van informatie, verklaringen, gegevens en content vrijwillig
+    plaatsvindt.</p>
+<h5>J. Bijdrages aan Iseekme.</h5>
+
+<p>Door ideeën, suggesties, documenten en/of voorstellen ('Bijdrages') in te dienen op Iseekme
+    via de webpagina's voor suggesties of feedback erkent u en verklaart u zich akkoord dat: (a)
+    uw bijdrages geen vertrouwelijke of eigendomsinformatie bevatten; (b) SilkBricks niet
+    verplicht is tot geheimhouding, expliciet of impliciet, met betrekking tot de bijdrages; (c)
+    SilkBricks het recht heeft dergelijke bijdrages te gebruiken of openbaar te maken (of
+    beslissen ze niet te gebruiken of openbaar te maken) voor welk doeleinde dan ook, op welke
+    wijze dan ook, in alle media in heel de wereld; (d) SilkBricks iets gelijksoortigs aan de
+    bijdrages reeds in overweging of onder ontwikkeling kan hebben; (e) u onherroepelijk alle
+    rechten op uw bijdrages toewijst aan SilkBricks; en (f) u geen recht hebt op compensatie of
+    terugbetaling van welke aard dan ook van SilkBricks in welke situatie dan ook.</p>
+
+<h3>3. UW RECHTEN.</h3>
+
+<p>Op voorwaarde dat u voldoet aan al uw verplichtingen onder deze Overeenkomst, inclusief, maar
+    niet beperkt tot, de regels zoals vermeld in Sectie 10, verlenen wij u een beperkte,
+    herroepbare, niet-exclusieve, niet-toewijsbare, niet-sublicentieerbare licentie en het recht
+    op toegang tot de Services, via een algemeen beschikbare internetbrowser, mobiel apparaat of
+    toepassing (maar niet door scraping, spidersoftware, verkennen of via een andere technologie
+    of software gebruikt om zich toegang te verschaffen tot gegevens zonder de expliciete,
+    schriftelijke toestemming van SilkBricks of haar Gebruikers), informatie te bekijken en de
+    Services te gebruiken die we leveren op de Iseekme-webpagina's en in overeenstemming met
+    deze Overeenkomst. Ieder ander gebruik van Iseekme dat tegenstrijdig is met onze missie en
+    doeleinden is strikt verboden en een overtreding van deze Overeenkomst. We behouden ons alle
+    rechten voor die niet expliciet worden verleend in deze Overeenkomst, inclusief, zonder
+    beperking, titel, eigendom, intellectuele eigendomsrechten, en alle andere rechten en
+    belangen in Iseekme en alle verwante onderwerpen, inclusief alle mogelijke kopieën die zijn
+    gemaakt van de Iseekme-website.</p>
+
+<h3>4. ONZE RECHTEN EN VERPLICHTINGEN.</h3>
+<h5>A. Beschikbaarheid van de Services.</h5>
+
+<p>Zolang SilkBricks de Services blijft aanbieden, zal SilkBricks de Services leveren en deze
+    proberen bij te werken, te verbeteren en uit te breiden. Als resultaat bieden we u toegang
+    tot Iseekme zoals deze bestaat en beschikbaar kan zijn op een bepaalde dag en hebben wij
+    geen aanvullende verplichtingen, behalve zoals expliciet vermeld in deze Overeenkomst. We
+    kunnen naar eigen goeddunken Iseekme, geheel of gedeeltelijk, wijzigen, vervangen, de
+    toegang ertoe weigeren, opschorten of stopzetten. Al deze wijzigingen gaan van kracht op het
+    ogenblik dat ze worden gepubliceerd op onze site of door directe communicatie met u, tenzij
+    anders vermeld. SilkBricks behoudt zich verder het recht voor alle content die beschikbaar
+    is als deel van uw account te weerhouden, te verwijderen of te weigeren, met of zonder
+    kennisgeving indien SilkBricks deze tegenstrijdig acht met deze Overeenkomst. Om twijfel te
+    vermijden is SilkBricks niet verplicht tot het opslaan, onderhouden of leveren van een kopie
+    van content die u of andere Gebruikers leveren wanneer ze de Services gebruiken.</p>
+<h5>B. Openbaarmaking van Gebruikersinformatie.</h5>
+
+<p>U erkent, stemt toe en verklaart zich akkoord dat wij toegang hebben tot uw registratie en
+    alle overige informatie en dat we deze mogen bewaren en openbaar maken indien wettelijk
+    vereist of indien wij te goeder trouw geloven dat een dergelijke toegang, bewaring of
+    openbaarmaking naar onze mening noodzakelijk is om: (1) juridische procedures na te leven,
+    inclusief, maar niet beperkt tot, burgerlijke en strafrechtelijke dagvaardingen,
+    gerechtelijke bevelen of andere verplichte openbaarmakingen; (2) deze Overeenkomst af te
+    dwingen; (3) te reageren op claims van een overtreding van de rechten van derden, ongeacht
+    of de derde een Gebruiker, individu of overheidsinstantie is; (4) te reageren op vragen van
+    het Helpcentrum; of (5) de rechten, eigendom of persoonlijke veiligheid van SilkBricks, onze
+    Gebruikers of het publiek te beschermen.</p>
+
+<p>Openbaarmakingen van Gebruikersinformatie aan derden anders dan diegenen die vereist zijn om
+    ondersteuning te bieden aan onze klanten, deze overeenkomst te beheren, of te voldoen aan de
+    wettelijke vereisten, worden besproken in het Privacybeleid.</p>
+<h5>C. Interactie met andere Gebruikers.</h5>
+
+<p>U bent exclusief verantwoordelijk voor uw interactie met andere Gebruikers. SilkBricks kan u
+    verbieden contact op te nemen met andere Gebruikers door het gebruik van de Services of op
+    andere wijze uw gebruik van de Services beperken. SilkBricks behoudt zich het recht voor,
+    maar is niet verplicht, toezicht te houden op geschillen tussen u en de andere leden en uw
+    account te beperken, op te schorten of te sluiten indien SilkBricks bepaalt, volgens haar
+    exclusieve oordeel, dat dit noodzakelijk is om deze Overeenkomst af te dwingen.</p>
+
+<h3>5. Vrijwaring.</h3>
+
+<p><strong>Bepaalde landen en rechtsgebieden verbieden de vrijwaring van impliciete voorwaarden
+    in contracten met consumenten en als resultaat is de content van deze sectie mogelijk niet
+    van toepassing op u.</strong></p>
+
+<p>Vertrouw niet op SilkBricks, enige informatie erop, of de voortzetting ervan. We bieden het
+    platform voor Iseekme en alle informatie en services op basis van de huidige staat en zoals
+    beschikbaar. SilkBricks controleert de door de gebruiker gegenereerde content niet op
+    nauwkeurigheid. We bieden geen enkele expliciete garantie of vertegenwoordigingen.</p>
+
+<p>In de ruimste mate waarin dit door de wet is toegestaan, wijzen we alle mogelijke impliciete
+    garantie en vertegenwoordigingen af, inclusief, zonder beperking, alle garanties van
+    verhandelbaarheid, geschiktheid voor een bepaald doel, titel, nauwkeurigheid van gegevens en
+    niet-inbreuk. Als u ontevreden bent over of wordt belemmerd door Iseekme of door iets dat
+    verwant is met Iseekme kunt u uw Iseekme-account sluiten en deze overeenkomst beëindigen in
+    overeenstemming met sectie 7 ('beëindiging') en een dergelijke beëindiging is uw enige en
+    exclusieve oplossing.</p>
+
+<p>SilkBricks is niet verantwoordelijk en levert geen vertegenwoordiging of garanties voor de
+    levering van berichten (zoals feedforwards) verzonden via Iseekme naar wie dan ook. We
+    bieden bovendien geen garantie noch vertegenwoordiging dat uw gebruik van de service geen
+    inbreuk inhoudt op de rechten van derden. Al het materiaal, iedere service of technologie
+    beschreven of gebruikt op de website kan onderhevig zijn aan intellectuele eigendomsrechten
+    die het eigendom zijn van derden die dit materiaal aan ons hebben gelicentieerd, service of
+    technologie.</p>
+
+<p>SilkBricks heeft geen verplichting de identiteit te verifiëren van de personen die zich
+    inschrijven op haar services, noch de verplichting het gebruik van de services door andere
+    gebruikers van de gemeenschap te controleren; om die reden wijst SilkBricks iedere
+    aansprakelijkheid af met betrekking tot identiteitsdiefstal of ieder ander misbruik van uw
+    identiteit of informatie.</p>
+
+<p>SilkBricks biedt geen garanties dat de services die worden geleverd zullen werken zonder
+    onderbrekingen of defecten. De werking van de services kan met name worden onderbroken door
+    onderhoudswerk, updates of systeem- of netwerkdefecten. SilkBricks wijst iedere
+    aansprakelijkheid af voor schade veroorzaakt door dergelijke onderbrekingen of defecten.
+    Bovendien wijst SilkBricks iedere aansprakelijkheid af voor een incorrecte werking, de
+    onmogelijkheid toegang te krijgen of zwakke gebruiksomstandigheden van de Iseekme-site
+    vanwege ongeschikte apparatuur, storingen te wijten aan internetproviders, de verzadiging
+    van het internetnetwerk en voor wat voor redenen dan ook.</p>
+
+<h3>6. Beperking van de aansprakelijkheid.</h3>
+
+<p><strong>Bepaalde landen verbieden de beperking of uitsluiting van aansprakelijkheid in
+    contracten met consumenten en als resultaat is de inhoud van deze sectie mogelijk niet van
+    toepassing op u.</strong></p>
+
+<p>SilkBricks, noch een van onze dochterondernemingen, geaffilieerde bedrijven, werknemers,
+    aandeelhouders of directeurs ('SilkBricks-filialen') is cumulatief aansprakelijk voor (a)wat
+    voor een schade dan ook van meer dan vijf keer het meest recent betaalde maandelijkse tarief
+    dat u hebt betaald voor een Premium-service, indien van toepassing, of USD 100, naargelang
+    welk bedrag het hoogst is, of (b) andere speciale, incidentele, indirecte, strafrechtelijke
+    of gevolgschade of verlies van gebruik, winst, opbrengsten of gegevens van u of een derde
+    persoon als resultaat van uw gebruik van de Service, eventuele platformtoepassingen, of wat
+    voor content of ander materiaal dan ook op, geopend via of gedownload van Iseekme. Deze
+    aansprakelijkheidsbeperking is een onderdeel van de basis van de overeenkomst tussen de
+    partijen en zonder deze beperking zouden de voorwaarden en prijzen verschillend zijn. Deze
+    aansprakelijkheidsbeperking:</p>
+
+<p>A. Is van toepassing, ongeacht of (1) u uw claim baseert op contract, onrechtmatige daad,
+    statuut of een andere wettelijke theorie, (2) we wisten of zouden moeten geweten hebben over
+    de mogelijkheid van dergelijke schadevergoedingen, of (3) de beperkte middelen voorzien in
+    deze sectie niet voldoen voor hun essentiele doeleinde; en</p>
+
+<p>B. Is niet van toepassing op alle schade die SilkBricks u met opzet of bewust kan veroorzaken
+    in overtreding van deze Overeenkomst of geldende wetgeving, of zoals anderzijds opgelegd
+    door de geldende wetgeving die niet kan worden afgewezen op basis van deze Overeenkomst.</p>
+
+<p>C. Is niet van toepassing als u een afzonderlijke overeenkomst hebt afgesloten om
+    Premium-services te kopen met een afzonderlijke aansprakelijkheidsbeperking die deze sectie
+    overtreft met betrekking tot deze Premium-services.</p>
+
+<h3>7. BEËINDIGING.</h3>
+<h5>A. Wederzijdse rechten tot beëindiging.</h5>
+
+<p>U kunt deze Overeenkomst beëindigen, om welke reden dan ook of zonder reden, met kennisgeving
+    aan SilkBricks op grond van Sectie 9.C. Deze kennisgeving gaat van kracht op het moment dat
+    SilkBricks uw kennisgeving begint te verwerken. SilkBricks kan de Overeenkomst en uw account
+    op ieder moment beëindigen om welke reden dan ook of zonder reden, met of zonder
+    kennisgeving. Deze annulering gaat onmiddellijk van kracht of zoals bepaald in de
+    kennisgeving.Beëindiging van uw Iseekme-account betekent de stopzetting van uw toegang tot
+    Iseekme en kan u ook blokkeren van ieder toekomstig gebruik van Iseekme.</p>
+
+<h5>B. Misbruik van de Services.</h5>
+
+<p>SilkBricks kan de account beperken, opschorten of beëindigen van iedere gebruiker die de
+    Services misbruikt. Misbruik van de Services omvat misbruik van de Iseekme-berichtenservice;
+    meerdere of valse profielen aanmaken; het commercieel gebruik van de Services zonder de
+    toestemming van SilkBricks, de inbreuk van intellectuele eigendomsrechten, de overtreding
+    van de regels zoals vermeld in Sectie 10, of ieder ander gedrag dat SilkBricks, naar eigen
+    goeddunken, tegenstrijdig acht voor haar doeleinden. Bovendien, en zonder beperking van het
+    voorgaande, heeft SilkBricks een beleid aanvaard om accounts te beëindigen van Gebruikers
+    die, volgens het exclusieve oordeel van SilkBricks, de Copyrightwetgeving van Nederland
+    herhaaldelijk hebben overtreden.</p>
+
+<h5>C. Gevolgen van de beëindiging.</h5>
+
+<p>Op het moment van beëindiging van uw Iseekme-account verliest u toegang tot de Services. De
+    voorwaarden van deze Overeenkomst overleeft iedere beëindiging, behalve Secties 3 ('Uw
+    rechten') en 4.a-b en d ('Onze rechten en verplichtingen') van deze Overeenkomst.</p>
+
+<h3>8. GESCHILLENBESLECHTING</h3>
+<h5>A. Wetgeving en forum voor gerechtelijke geschillen</h5>
+
+<p>Deze Overeenkomst of iedere claim, handeling of geschil ('claim') die het resultaat is van of
+    verwant is met deze Overeenkomst wordt beheerst door de wetgeving van Nederland ongeacht uw
+    land van oorsprong of waar u zich toegang verschaft tot Iseekme, en onverminderd eventuele
+    conflicten met wettelijke principes en het Verdrag van de Verenigde Naties inzake
+    internationale koopovereenkomsten betreffende roerende zaken. U en SilkBricks verklaren zich
+    akkoord dat alle claims die het resultaat zijn van of verwant zijn met deze Overeenkomst
+    exclusief moeten worden opgelost door een staats- of federale rechtbank in Den Haag,
+    Nederland, behalve indien anderzijds overeengekomen door de partijen of zoals beschreven in
+    de onderstaande paragraaf Arbitrageoptie. U en SilkBricks verklaren zich akkoord zich te
+    onderwerpen aan de persoonlijke rechtspraak van de rechtbanken in Den Haag, Nederland om
+    alle dergelijke claims te procederen. Onverminderd het bovenstaande verklaart u zich akkoord
+    dat SilkBricks nog steeds de toestemming heeft verhaal aan te vragen per rechterlijk bevel
+    (of een gelijksoortige vorm van dringende wettelijke bepalingen) in ieder rechtsgebied.</p>
+
+<h5>B. Arbitrageoptie.</h5>
+
+<p>Voor iedere claim (exclusief claims voor rechterlijke bevelen of andere gelijksoortige
+    voorzieningen) waar het totaalbedrag van de gewenste compensatie lager is dan 10.000 kan de
+    aanvragende partij ervoor kiezen het geschil op te lossen op een kostenefficiënte wijze door
+    een bindende niet-op-verschijning-gebaseerde arbitrage. Indien een partij kiest voor
+    arbitrage, zal zij een dergelijke arbitrage initiëren via een vastgelegde leverancier van
+    alternatieve geschillenbeslechting die onderling wordt overeengekomen door de partijen. De
+    leverancier van de alternatieve geschillenbeslechting en de partijen moeten de volgende
+    regels naleven: (a) de arbitrage wordt uitgevoerd via de telefoon, online en/of uitsluitend
+    gebaseerd op schriftelijk ingediende gegevens, de specifieke wijze wordt gekozen door de
+    partij die de arbitrage initieert; (b) de arbitrage omvat geen persoonlijke verschijning
+    door de partijen of getuigen tenzij anderzijds onderling overeengekomen door de partijen; en
+    (c) iedere beoordeling over de compensatie door de arbiter is definitief en kan worden
+    ingediend bij iedere rechtbank of bevoegd rechtsgebied.</p>
+
+<h3>9. ALGEMENE VOORWAARDEN.</h3>
+<h5>A. Scheidbaarheid.</h5>
+
+<p>Indien een bepaling van deze Overeenkomst door een bevoegd rechtsgebied of arbiter als
+    onwettelijk, nietig of onafdwingbaar wordt bevonden, wordt de onafdwingbare bepaling
+    gewijzigd om deze afdwingbaar en effectief te maken in de ruimst mogelijke mate om de
+    bedoeling van de bepaling te doen gelden; en als een gerechtshof of arbiter de gewijzigde
+    bepaling ongeldig, onwettig, nietig of onafdwingbaar beoordeelt, zal dit de geldigheid,
+    wettelijkheid en afdwingbaarheid van de overige bepalingen van deze Overeenkomst niet
+    beďnvloeden.</p>
+
+<h5>B. Kennisgevingen.</h5>
+
+<p>Naast Sectie 2.h. ('Kennisgevingen en serviceberichten'), kunnen we u op de hoogte brengen
+    via publicaties op www.Iseekme.com. U kunt contact opnemen met ons via
+    support@silkbricks.com.</p>
+
+<p>Of via de post of verzendservices op dit adres:</p>
+<address>SilkBricks Surfplein 4 2492 VE Den Haag Nederland</address>
+<p>SilkBricks aanvaardt bovendien betekeningen op dit adres. Kennisgevingen die u indient en die
+    niet in overeenstemming zijn met deze sectie over Kennisgevingen hebben geen wettelijke
+    geldigheid.</p>
+
+<h5>C. Volledige Overeenkomst.</h5>
+
+<p>U verklaart zich akkoord dat deze Overeenkomst de volledige, complete en exclusieve
+    overeenkomst omvat tussen u en ons met betrekking tot de Services en dat deze alle vorige,
+    schriftelijke of mondelinge, overeenkomsten en akkoorden overtreft, al dan niet vastgelegd
+    door gewoonten, procedures, beleidslijnen of precedenten, met betrekking tot het onderwerp
+    van deze Overeenkomst. U bent ook onderhevig aan de aanvullende algemene voorwaarden die van
+    toepassing kunnen zijn wanneer u bepaalde andere SilkBricks-services, content van derden of
+    software van derden gebruikt of aankoopt.</p>
+
+<h5>D. Amendementen van deze Overeenkomst.</h5>
+
+<p>We behouden ons het recht voor de voorwaarden van de Overeenkomst te wijzigen, aan te vullen
+    of te vervangen, die van kracht gaan op het moment van publicatie op www.Iseekme.com of
+    andere kennisgeving. SilkBricks publiceert bijvoorbeeld een banner op de site wanneer we
+    deze Overeenkomst of het Privacybeleid hebben gewijzigd, zodat u toegang krijgt tot de
+    wijzigingen en deze kunt inzien voordat u doorgaat met uw gebruik van de site. Als u niet
+    akkoord gaat met de wijzigingen in de Overeenkomst kunt u deze Overeenkomst op ieder moment
+    beëindigen zoals vermeld in Sectie 7 (Beëindiging).</p>
+
+<h5>E. Geen informele afstand, overeenkomsten of vertegenwoordigingen.</h5>
+
+<p>Onze nalatigheid te handelen met betrekking tot een inbreuk van deze Overeenkomst door u of
+    anderen vormt geen afwijzing van ons recht te handelen met betrekking tot die inbreuk of
+    daaropvolgende gelijksoortige of andere inbreuken. Behalve zoals expliciet en specifiek
+    overwogen door de Overeenkomst worden geen vertegenwoordigingen, verklaringen, toelatingen,
+    afwijzingen of andere handelingen van verzuim door een SilkBricks-filiaal wettelijk bindend
+    geacht met betrekking tot een SilkBricks-filiaal, tenzij gedocumenteerd in een fysiek
+    schriftelijk document ondertekend door een correct aangestelde vertegenwoordiger van
+    SilkBricks.</p>
+
+<h5>F. Geen rechterlijke bevelen.</h5>
+
+<p>U mag in geen enkel geval ontbinding, rechterlijk bevel of een andere gelijksoortige
+    voorziening aanvragen noch hebt u hier recht op. Zo mag u ook de werking van een service, of
+    de uitbating van eventuele reclame of ander materiaal uitgevaardigd in dit verband, noch de
+    uitbating van de Services of content of ander materiaal gebruikt of weergegeven via de
+    Services niet bevelen noch belemmeren.</p>
+
+<h5>G. Toewijzing en overdracht.</h5>
+
+<p>U mag geen van de rechten en verplichtingen in het kader van deze Overeenkomst toewijzen of
+    overdragen. Iedere vermeende toewijzing of overdracht is ongeldig. We kunnen alle rechten en
+    verplichtingen in het kader van deze Overeenkomst, geheel of gedeeltelijk, vrij toewijzen of
+    overdragen zonder voorafgaande kennisgeving aan u. We kunnen Iseekme ook vervangen, door
+    middel van een unilaterale schuldvernieuwing, van kracht vanaf het moment waarop u op de
+    hoogte wordt gebracht, door een derde die onze rechten en verplichtingen krachtens deze
+    Overeenkomst zal overnemen.</p>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-6">
+    <p><br><br>Place the product in a shipping box or plastic bag. Hats and caps must be returned in
+        a box so they do not get squashed out of shape.
+        Enclose the original sales receipt to the product.
+        Write RETURN on the package to ensure a faster expedition.
+        Send the package to: microStore, 84 State Road 123, City, State 24813
+        The return and financial responsibility is yours until it reaches microStore and are
+        confirmed by a delivery confirmation. Please notice that we can exchange your items to
+        another size or color if available in stock.</p>
+
+    <h3>Warranty claims</h3>
+
+    <p>There is a 2 years warranty on all products sold on www.microStore.com. This warranty covers
+        manufacturing faults only, not wear and tear from regular use. Please contact us at
+        shop@microStore.com if you have a warranty claim, including order number, photos of the
+        claim area and a description of the claim.</p>
+
+    <h3>Disclaimer</h3>
+
+    <p>microStore does not guarantee that all items shown are in stock at the time of your order. In
+        the event that an item is unavailable for whatever reason, microStore will contact you by
+        e-mail. Although we do our best to display correct images, correct colours, info and prices,
+        errors may occur.</p>
+
+    <h3>Privacy policy</h3>
+
+    <p>All your personal information is handled under strict confidence. microStore.com will never
+        give any of your personal information to 3rd parties.All information is encrypted for
+        safety.</p>
+
+    <h3>Security</h3>
+
+    <p>For the safety of your personal information, we use SLL encryption on all data to and from
+        the site. When placing an order, you can immediately check the security validity by clicking
+        the padlock icon that appears in the URL line of your browser when SSL is activated.</p>
+
+    <h3>Cookies</h3>
+
+    <p>Cookies are used by microStore.com in order to improve your experience when browsing and
+        using the website. The cookie identifies your computer and allows the site to remember your
+        personal settings. microStore.com may not operate properly when cookies are disabled in your
+        web browser.</p>
+
+    <h3>Measurements</h3>
+
+    <p>All measurements are approximate and variance may occur. We have done our best but please
+        have average sizing in mind and note that +/- 1cm on each measurement may occur.</p>
+
+    <h3>Age restrictions</h3>
+
+    <p>Parental or guardian consent is required for customers under the age of 18.</p>
+
+    <h3>Governing law</h3>
+
+    <p>The terms of use are complied in accordance with Danish law and the Danish courts will have
+        exclusive jurisdiction.
+    </p>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-12 text-center">
+    <a class="btn btn-store" href="#" data-dismiss="modal">Back to page</a><br><br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- FOOTER -->
+<div class="footer">
+    <div class="container">
+        <img src="images/SilkBricks_logo.png" class="img-rounded img-responsive footer-logo-img center-block"/>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--<script src="javascripts/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!-- Bootstrap JS -->
+<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+<script src="javascripts/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+
+<script type='text/javascript'>
+
+    $(document).ready(function () {
+
+        /* form validation plugin */
+        $.fn.goValidate = function () {
+            var $form = this,
                     $inputs = $form.find('input:text');
 
-                var validators = {
-                    name: {
-                        regex: /^[A-Za-z]{3,}$/
-                    },
-                    pass: {
-                        regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/
-                    },
-                    email: {
-                        regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
-                    },
-                    phone: {
-                        regex: /^[2-9]\d{2}-\d{3}-\d{4}$/,
-                    }
-                };
-                var validate = function (klass, value) {
-                    var isValid = true,
+            var validators = {
+                name: {
+                    regex: /^[A-Za-z]{3,}$/
+                },
+                pass: {
+                    regex: /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/
+                },
+                email: {
+                    regex: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
+                },
+                phone: {
+                    regex: /^[2-9]\d{2}-\d{3}-\d{4}$/,
+                }
+            };
+            var validate = function (klass, value) {
+                var isValid = true,
                         error = '';
 
-                    if (!value && /required/.test(klass)) {
-                        error = 'This field is required';
-                        isValid = false;
-                    } else {
-                        klass = klass.split(/\s/);
-                        $.each(klass, function (i, k) {
-                            if (validators[k]) {
-                                if (value && !validators[k].regex.test(value)) {
-                                    isValid = false;
-                                    error = validators[k].error;
-                                }
+                if (!value && /required/.test(klass)) {
+                    error = 'This field is required';
+                    isValid = false;
+                } else {
+                    klass = klass.split(/\s/);
+                    $.each(klass, function (i, k) {
+                        if (validators[k]) {
+                            if (value && !validators[k].regex.test(value)) {
+                                isValid = false;
+                                error = validators[k].error;
                             }
-                        });
-                    }
-                    return {
-                        isValid: isValid,
-                        error: error
-                    }
-                };
-                var showError = function ($input) {
-                    var klass = $input.attr('class'),
+                        }
+                    });
+                }
+                return {
+                    isValid: isValid,
+                    error: error
+                }
+            };
+            var showError = function ($input) {
+                var klass = $input.attr('class'),
                         value = $input.val(),
                         test = validate(klass, value);
 
-                    $input.removeClass('invalid');
-                    $('#form-error').addClass('hide');
+                $input.removeClass('invalid');
+                $('#form-error').addClass('hide');
 
-                    if (!test.isValid) {
-                        $input.addClass('invalid');
+                if (!test.isValid) {
+                    $input.addClass('invalid');
 
-                        if (typeof $input.data("shown") == "undefined" || $input.data("shown") == false) {
-                            $input.popover('show');
-                        }
-
+                    if (typeof $input.data("shown") == "undefined" || $input.data("shown") == false) {
+                        $input.popover('show');
                     }
-                    else {
-                        $input.popover('hide');
-                    }
-                };
 
-                $inputs.keyup(function () {
-                    showError($(this));
-                });
-
-                $inputs.on('shown.bs.popover', function () {
-                    $(this).data("shown", true);
-                });
-
-                $inputs.on('hidden.bs.popover', function () {
-                    $(this).data("shown", false);
-                });
-
-                $form.submit(function (e) {
-
-                    $inputs.each(function () { /* test each input */
-                        if ($(this).is('.required') || $(this).hasClass('invalid')) {
-                            showError($(this));
-                        }
-                    });
-                    if ($form.find('input.invalid').length) { /* form is not valid */
-                        e.preventDefault();
-                        $('#form-error').toggleClass('hide');
-                    }
-                });
-                return this;
+                }
+                else {
+                    $input.popover('hide');
+                }
             };
-            $('form').goValidate();
 
-        });
+            $inputs.keyup(function () {
+                showError($(this));
+            });
 
-    </script>
+            $inputs.on('shown.bs.popover', function () {
+                $(this).data("shown", true);
+            });
+
+            $inputs.on('hidden.bs.popover', function () {
+                $(this).data("shown", false);
+            });
+
+            $form.submit(function (e) {
+
+                $inputs.each(function () { /* test each input */
+                    if ($(this).is('.required') || $(this).hasClass('invalid')) {
+                        showError($(this));
+                    }
+                });
+                if ($form.find('input.invalid').length) { /* form is not valid */
+                    e.preventDefault();
+                    $('#form-error').toggleClass('hide');
+                }
+            });
+            return this;
+        };
+        $('form').goValidate();
+
+    });
+
+</script>
 </body>
 </html>
